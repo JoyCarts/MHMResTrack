@@ -1,0 +1,20 @@
+CREATE TABLE ResExit (
+   AdmissionID int,
+   MoveOutDateTime datetime,
+   MoveOutStreetAddress varchar(1024),
+   MoveOutCity varchar(50),
+   MoveOutState varchar(50),
+   NumberofDaysActive int,
+   BlockfromReentry bit,
+   ReadmitConditions varchar(1024),
+   LeftVolunteerly bit,
+   ReasonForLeaving varchar(1024),
+   UnresolvedIssue varchar(1024),
+   PossessionsRemovedDate datetime,
+   Graduated bit,
+   GraduationNoteId varchar(1024),
+   CompletedAfterCareAssessment bit,
+   ExitCoordinator varchar(100),
+   LastModifiedDateTime datetime,
+   ModifiedBy varchar(20)
+);
